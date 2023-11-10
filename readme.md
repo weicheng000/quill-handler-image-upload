@@ -92,6 +92,6 @@ const insertImage = function (url) {
 const editor = document.getElementById('editor')
 ````
 我們操作`editor` 調用其中的 `getSelection` 方法  
-去得當前在編輯器光標的位置，  
+去取得當前在編輯器光標的位置，  
 並使用`insertEmbed` 方法將圖片以原生`url`的方式插入  
 就此，改造完成。
